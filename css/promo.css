@@ -1,8 +1,11 @@
 .promo {
-    margin-top: 90px;
-    display: flex;
+    margin-top: 127px;
     position: relative;
     background-color: #EEE4DB;
+}
+
+.promo-slide {
+    display: flex;
 }
 
 .promo-switch {
@@ -18,18 +21,20 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     font-weight: 300;
-    line-height: 60px;
+    line-height: 73px;
     color: rgba(30, 6, 6, 0.05);
 
 }
 
 .promo-button-slide{
     margin-top: 10px;
+    max-width: 31px;
     padding-left: 3px;
 
 }
 
 .promo-button-slide-inner {
+    margin-top: 10px;
     padding: 2px 16px;
     border: none;
     border-radius: 0px;
@@ -48,10 +53,10 @@
 
 .promo-slide-heading {
     font-family: Montserrat;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 44px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
 }
 
 .promo-slide-text{
@@ -62,7 +67,31 @@ line-height: 44px;
     line-height: 25px;
 }
 
+.promo-slide-button {
+    border: none;
+    border-radius: 0px;
+    background-color: #000000;
+}
+
 .img-slide1 {
     margin-top: -90px;
     max-width: 635px;
+}
+
+.promo-ship {
+    background-color: #C29974;
+}
+
+.promo-ship-inner {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }

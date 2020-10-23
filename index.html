@@ -5,26 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@300;400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>DLK</title>
   </head>
   <body>
 <!--HEADER-->
-    <h1 class="visually-hidden">
-      DLK
-    </h1>
     <header class="header container">
-      <div class="header-logo">
+      <h1 class="header-logo">
         <a href="#">
           <img src="img/logo.png" alt="Site logo"/>
         </a>
-      </div>
+        <span class="visually-hidden">DLK</span>
+      </h1>
       <nav class="header-nav">
         <ul class="header-nav-menu">
           <li class="header-nav-menu-item">
             <a href="#">BLOG</a>
           </li>
           <li class="header-nav-menu-item">
-            <a href="#">CATALOG</a>
+            <a href="catalog.html">CATALOG</a>
           </li>
           <li class="header-nav-menu-item">
             <a href="#">ABOUT US</a>
@@ -38,137 +37,99 @@
       
     </header>
 <!--PROMO-->
-    <section class="promo container">
-      <div class="promo-switch">
-        <div class="promo-number-slide">
-          <p class="promo-number-slide-inner">01</p>
+    <main class="promo container">
+      <div class="promo-slide">
+        <div class="promo-switch">
+          <div class="promo-number-slide">
+            <p class="promo-number-slide-inner">01</p>
+          </div>
+          <ul class="promo-button-slide">
+            <li class="promo-button-slide-inner">
+            </li>
+            <li class="promo-button-slide-inner">
+            </li>
+            <li class="promo-button-slide-inner">
+            </li>
+            <li class="promo-button-slide-inner">
+            </li>
+          </ul>
         </div>
-        <ul class="promo-button-slide">
-          <li>
-            <button class="promo-button-slide-inner"></button>
-          </li>
-          <li>
-            <button class="promo-button-slide-inner"></button>
-          </li>
-          <li>
-            <button class="promo-button-slide-inner"></button>
-          </li>
-          <li>
-            <button class="promo-button-slide-inner"></button>
-          </li>
-        </ul>
+        <div class="promo-slide1">
+            <h2 class="promo-slide-heading">THE OOH NOO COLLECTION</h2>
+            <p class="promo-slide-text">Designed in Slovenia</p>
+            <button class="promo-slide-button">EXPLORE NOW</button>
+          </div>
+          <img src="img/promo.png" alt="promo" class="img-slide1"/>
       </div>
-      <!--slide1-->
-      <div class="promo-slide1">
-          <h2 class="promo-slide-heading">THE OOH NOO COLLECTION</h2>
-          <p class="promo-slide-text">Designed in Slovenia</p>
-          <button class="button">EXPLORE NOW</button>
-        </div>
-        <img src="img/promo.png" alt="promo" class="img-slide1"/>
-      <!--slide2-->
-      <!--<div class="promo-slide2">
-      <div class="number-slide">
-        <h2>02</h2>
-      </div>
-      <div class="slide-info">
-        <h1></h1>
-        <p></p>
-        <a href="#"></a>
-      </div>
-      <div class="image-slide2">
-        <img src="" alt="promo"/>
-      </div>
-      </div>-->
-      <!--slide3-->
-      <!--<div class="promo-slide3">
-      <div class="number-slide">
-        <h2>03</h2>
-      </div>
-      <div class="slide-info">
-        <h1></h1>
-        <p></p>
-        <a href="#"></a>
-      </div>
-      <div class="image-slide3">
-        <img src="" alt="promo"/>
-      </div>
-      </div>-->
-      <!--slide4-->
-      <!--<div class="promo-slide4">
-      <div class="number-slide">
-        <h2>04</h2>
-      </div>
-      <div class="slide-info">
-        <h1></h1>
-        <p></p>
-        <a href="#"></a>
-      </div>
-      <div class="image-slide4">
-        <img src="" alt="promo"/>
-      </div>
-      </div>-->
-    </section>
-      <section class="ship container">
-        <p>
+      <div class="promo-ship container">
+        <p class="promo-ship-inner">
           Free (continental) USA shipping on all orders of $100 USD or more!
         </p>
-      </section>
-
+      </div>
+    </main>
+      
 <!--PRODUCT-->
     <section class="product container">
-      <h2>Category Products</h2>
-      <div>
-        <a href="#">
-          <div class="product-kids">
-            <h3>APPAREL KIDS</h3>
-            <img src="img/product/kids.png" alt="kids" />
-          </div>
-        </a>
+      <h2 class="product-category-heding">CATEGORY PRODUCTS</h2>
+      <div class="product-category">
+        <div class="product-category-inner">
+          <a href="#">
+            <div class="product-category-inner-kids">
+              <img src="img/product/kids.png" alt="kids" class="product-category-inner-img"/>
+              <p class="product-category-inner-text">APPAREL KIDS</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-category-inner">
+          <a href="#">
+            <div class="product-category-inner-holiday">
+              <img src="img/product/holiday.png" alt="holiday shop" class="product-category-inner-img"/>
+              <p class="product-category-inner-text">HOLIDAY SHOP</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-category-inner">
+          <a href="#">
+            <div class="product-category-inner-toys">
+              <img src="img/product/toys.png" alt="toys" class="product-category-inner-img"/>
+              <p class="product-category-inner-text">TOYS</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-category-inner">
+          <a href="#">
+            <div class="product-category-inner-accessories">
+              <img src="img/product/accessories.png" alt="accessories" class="product-category-inner-img"/>
+              <p class="product-category-inner-text">ACCESSORIES</p>
+            </div>
+          </a>
+        </div>
+        <!-- <div class="product-category-inner">
+          <a href="#">
+            <div class="product-category-inner-sale">
+              <img src="img/product/sale.png" alt="sale" class="product-category-inner-img"/>
+              <p class="product-category-inner-text">SALE</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-category-inner">
+          <a href="#">
+            <div class="product-category-inner-apparel-adults">
+              <img src="img/product/apparel adults.png" alt="apparel adults" class="product-category-inner-img"/>
+              <p class="product-category-inner-text">APPAREL ADULTS</p>
+            </div>
+          </a>
+        </div> -->
       </div>
-      <div>
-        <a href="#">
-          <div class="product-holiday">
-            <h3>HOLIDAY SHOP</h3>
-            <img src="img/product/holiday.png" alt="holiday" />
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <div class="product-toys">
-            <h3>TOYS</h3>
-            <img src="img/product/toys.png" alt="toys" />
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <div class="product-accessories">
-            <h3>ACCESSORIES</h3>
-            <img src="img/product/accessories.png" alt="accessories" />
-          </div>
-        </a>
-      </div>
-      <!-- <div>
-        <a href="#">
-          <div class="sale">
-            <h3>SALE</h3>
-            <img src="img/product/sale.png" alt="sale" />
-          </div>
-        </a>
-      </div> -->
-      <!-- <div>
-        <a href="#">
-          <div class="apparel-adults">
-            <h3>APPAREL ADULTS</h3>
-            <img src="img/product/apparel adults.png" alt="apparel-adults" />
-          </div>
-        </a>
-      </div> -->
+      
       <div class="product-scroll">
-        <button class="scroll-left">&lt;</button>
-        <button class="scroll-right">&gt;</button>
-        <p>
+        <button class="product-scroll-btn product-scroll-btn-left">
+          <img src="/img/product/button left.svg" alt="button left" class="product-scroll-btn-inner">
+        </button>
+        <button class="product-scroll-btn product-scroll-btn-right">
+          <img src="/img/product/button right.svg" alt="button right" class="product-scroll-btn-inner">
+        </button>
+        <p class="product-scroll-text">
           Modern finds for the modern home. Curated goods by unique designers
           around the world from fashion to furniture for kids and adults.
         </p>
@@ -176,28 +137,25 @@
     </section>
 <!--INFORMATION-->
     <section class="information container">
-      <div class="information">
-        <h2>Delivery</h2>
+      <img src="img/delivery.jpg" alt="delivery" />
+      <div class="information-inner">
+        <h2 class="information-inner-header">DELIVERY</h2>
         <ul>
-          <li><a href="#">Delivery</a></li>
-          <li><a href="#">Guarantee</a></li>
-          <li><a href="#">Credit</a></li>
+          <li><a href="#" class="information-inner-link">Delivery</a></li>
+          <li><a href="#" class="information-inner-link">Guarantee</a></li>
+          <li><a href="#" class="information-inner-link">Credit</a></li>
         </ul>
-      </div>
-      <!-- delivery -->
-      <div class="delivery">
-        <img src="img/delivery.jpg" alt="delivery" />
-        <p>
+        <p class="information-inner-text">
           Some days i feel like i've been working on dlk my entire life and
           there are other days that i am completely shocked that four years have
           flown by. It's simply magical.
         </p>
-        <p>
+        <p class="information-inner-text">
           What started as an outlet to deal with the traumatic loss of my
           husband, dlk has now become a truly happy place for me and i have you
           and all of the beautiful designers that we work with to thank!
         </p>
-        <button>LEARN MORE</button>
+        <button class="information-inner-btn-lern-more">LEARN MORE</button>
       </div>
       <!-- guaratee -->
       <!-- <div class="guaratee">
@@ -231,99 +189,107 @@
       </div> -->
     </section>
 <!--CLIENTS-->
-    <section class="clients container">
-      <div class="mail-groop">
+    <ul class="clients container">
+      <li class="mail-groop">
         <a href="https://corp.mail.ru/" rel="noreferrer">
           <img src="img/clients/mail-ru-groop.png" alt="mail.ru-groop" />
         </a>
-      </div>
-      <div class="apple">
+      </li>
+      <li class="apple">
         <a href="https://apple.com/" rel="noreferrer">
           <img src="img/clients/apple.png" alt="apple" />
         </a>
-      </div>
-      <div class="eltex">
+      </li>
+      <li class="eltex">
         <a href="https://eltex-co.ru/" rel="noreferrer">
           <img src="img/clients/eltex.png" alt="eltex" />
         </a>
-      </div>
-      <div class="owox">
+      </li>
+      <li class="owox">
         <a href="https://www.owox.ru/" rel="noreferrer">
           <img src="img/clients/owox.png" alt="owox" />
         </a>
-      </div>
-    </section>
+      </li>
+    </ul>
 <!--ARTICLE-->
-    <article class="article container">
-      <div class="article-block">
-        <h2>Design Life Kids</h2>
-        <h3>About Us</h3>
-        <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-        <button>BUY NOW</button>
-      </div>
-      <div class="contacts">
-        <h2>Contacts</h2>
-        <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-        <img src="img/map.jpg" alt="map">
-      </div>
-
-    </article>
+    <div class="article container">
+      <article class="article-block block-about-us">
+        <h2 class="article-block-heading">DESIGN LIFE KIDS</h2>
+        <h3 class="article-block-heading2">About Us</h3>
+        <p class="article-block-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+        <button class="article-block-btn-buy-now">BUY NOW</button>
+      </article>
+      <article class="article-block block-contacts">
+        <h2 class="article-block-heading">CONTACTS</h2>
+        <p class="article-block-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+        <img src="img/map.jpg" alt="map" class="article-block-contacts-map">
+      </article>
+    </div>
 <!-- FOOTER -->
-    <footer class="footer container">
-      <nav class="nav-footer">
-        <h2>Navigation</h2>
-        <hr>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Design Services</a></li>
-          <li><a href="#">Featured On</a></li>
-          <li><a href="#">2018 Holiday Catalog</a></li>
-          <li><a href="#">Shop By Designer</a></li>
-        </ul>
-      </nav>
-      <div class="customer-information">
-        <h2>Customer Information</h2>
-        <hr>
-        <ul>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Sale Exclusions</a></li>
-          <li><a href="#">Shipping & Returns</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Search</a></li>
-        </ul>
-      </div>
-      <div class="connect">
-        <h2>Connect</h2>
-        <hr>
-        <form action="email">
-          <input type="email" placeholder="Email">
-          <input type="submit" value="Join">
-        </form>
-        <ul>
-          <li><a href="#"><img src="img/social/facebook.svg" alt="facebook"></a></li>
-          <li><a href="#"><img src="img/social/twitter.svg" alt="twitter"></a></li>
-          <li><a href="#"><img src="img/social/pinterest.svg" alt="pinterest"></a></li>
-          <li><a href="#"><img src="img/social/instagram.svg" alt="instagram"></a></li>
-        </ul>
-      <hr>
-      </div>
-      <div class="rating">
-        <h3>Company Rating</h3>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <h3>Copyright © 2018 Dlk • Design Life Kids</h3>
-      </div>
-      <div class="web-design">
-        <a href="https://directlinedev.com/">Web Design — Direct Line Development</a>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-nav">
+          <div class="footer-nav-link">
+            <p class="footer-nav-link-heading footer-heading">Navigation</p>
+            <ul class="footer-nav-link-inner">
+              <li><a href="#" class="footer-li">About Us</a></li>
+              <li><a href="#" class="footer-li">Blog</a></li>
+              <li><a href="#" class="footer-li">Design Services</a></li>
+              <li><a href="#" class="footer-li">Featured On</a></li>
+              <li><a href="#" class="footer-li">2018 Holiday Catalog</a></li>
+              <li><a href="#" class="footer-li">Shop By Designer</a></li>
+            </ul>
+          </div>
+          <div class="footer-customer-information">
+            <p class="footer-customer-information-heading footer-heading">Customer Information</p>
+            <ul>
+              <li><a href="#" class="footer-li">Contact Us</a></li>
+              <li><a href="#" class="footer-li">Sale Exclusions</a></li>
+              <li><a href="#" class="footer-li">Shipping & Returns</a></li>
+              <li><a href="#" class="footer-li">Terms & Conditions</a></li>
+              <li><a href="#" class="footer-li">Privacy Policy</a></li>
+              <li><a href="#" class="footer-li">Search</a></li>
+            </ul>
+          </div>
+          <div class="footer-connect">
+            <p class="footer-connect-heading footer-heading">Connect</p>
+            <form action="#" class="footer-connect-form">
+              <input type="email" placeholder="Email">
+              <input type="submit" value="Join">
+            </form>
+            <ul class="footer-social-network">
+              <li class="footer-social-network-inner"><a href="#"><img src="img/social/facebook.svg" alt="facebook"></a></li>
+              <li class="footer-social-network-inner"><a href="#"><img src="img/social/twitter.svg" alt="twitter"></a></li>
+              <li class="footer-social-network-inner"><a href="#"><img src="img/social/pinterest.svg" alt="pinterest"></a></li>
+              <li class="footer-social-network-inner"><a href="#"><img src="img/social/instagram.svg" alt="instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copirating">
+          <div class="footer-rating">
+            <p class="footer-rating-title">Company Rating</p>
+            <div class="star-rating">
+              <div class="star-rating-wrap">
+                <input class="star-rating-input" id="star-rating-5" type="radio" name="rating" value="5">
+                <label class="star-rating-ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                <input class="star-rating-input" id="star-rating-4" type="radio" name="rating" value="4">
+                <label class="star-rating-ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                <input class="star-rating-input" id="star-rating-3" type="radio" name="rating" value="3">
+                <label class="star-rating-ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                <input class="star-rating-input" id="star-rating-2" type="radio" name="rating" value="2">
+                <label class="star-rating-ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                <input class="star-rating-input" id="star-rating-1" type="radio" name="rating" value="1">
+                <label class="star-rating-ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+              </div>
+        </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright © 2018 Dlk • Design Life Kids</p>
+          </div>
+          <div class="footer-web-design">
+            <a href="https://directlinedev.com/" class="footer-web-design-link">Web Design — Direct Line Development</a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

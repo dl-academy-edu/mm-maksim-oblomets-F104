@@ -1,19 +1,27 @@
 @import "header.css";
 @import "promo.css";
+@import "product.css";
+@import "information.css";
+@import "clients.css";
+@import "article.css";
+@import "footer.css";
+
 
 * {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    line-height: 19px;
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -25,3 +33,13 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+button {
+    border: none;
+    border-radius: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 9px 22px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;

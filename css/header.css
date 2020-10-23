@@ -6,8 +6,17 @@
 .header {
     display: flex;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.header-logo {
+    position: relative;
+}
+
+.header-alt-logo {
+    display: block;
+    z-index: -1;
+    position: absolute;
 }
 
 .header-nav {
@@ -17,6 +26,7 @@
 .header-nav-menu {
     display: flex;
     padding: 0px;
+
 }
 
 .header-nav-menu-item {
@@ -31,4 +41,5 @@
 
 .header-contact {
     margin-left: 24px;
+    font-weight: 700;
 }
