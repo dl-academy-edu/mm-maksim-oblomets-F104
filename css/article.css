@@ -1,0 +1,50 @@
+.article {
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-block {
+    position: relative;
+    background-color: #E1F0F7;
+}
+
+.article-block-heading{
+    margin-top: -26px;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.article-block-heading2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.article-block-text {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 483px;
+}
+
+.article-block-btn-buy-now {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.article-block-contacts-map {
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: calc(100%-127px);
+}

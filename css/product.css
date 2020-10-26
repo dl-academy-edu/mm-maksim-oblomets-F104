@@ -1,0 +1,144 @@
+.product {
+}
+
+.product-category{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-product {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-category-inner,{
+    margin-top: 23px;
+    margin-left: auto;
+}
+
+.product-category-heding,
+.product-heding {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.product-text {
+    max-width: 680px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.product-category-inner{
+
+    width: 280px;
+    height: 270px;
+    position: relative;
+}
+
+.product-category-inner-kids{
+    position: relative;
+    max-width: 280px;
+    height: 270px;
+    background-color: #dbe4db;
+}
+
+.product-category-inner-holiday{
+    position: relative;
+    width: 280px;
+    height: 270px;
+    background-color: #EADDD3;
+}
+
+.product-category-inner-toys{
+    position: relative;
+    width: 280px;
+    height: 270px;
+    background-color:#F8F2DA;
+}
+
+.product-category-inner-accessories{
+    position: relative;
+    width: 280px;
+    height: 270px;
+    background-color:#D5D4E1;
+}
+
+.product-category-inner-sale{
+    position: relative;
+    width: 280px;
+    height: 270px;
+    background-color:#F3D0DB;
+}
+
+.product-category-inner-apparel-adults{
+    position: relative;
+    width: 280px;
+    height: 270px;
+    background-color: #E5EAF8;
+}
+
+.product-category-inner-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-category-inner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.product-scroll {
+    display: flex;
+    margin-top: 33px;
+}
+
+.product-scroll-btn {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    border: 0px;
+    border-radius: 0px;
+    background-color: rgba(112, 187, 220, 0.2);
+}
+
+.product-scroll-btn-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-scroll-btn-right {
+    margin-left: 6px;
+}
+
+.product-scroll-text {
+    margin: 0px 20px;
+    max-width: 580px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+

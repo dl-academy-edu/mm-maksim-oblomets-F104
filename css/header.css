@@ -1,0 +1,45 @@
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-logo {
+    position: relative;
+}
+
+.header-alt-logo {
+    display: block;
+    z-index: -1;
+    position: absolute;
+}
+
+.header-nav {
+    margin-left: 60px;
+}
+
+.header-nav-menu {
+    display: flex;
+    padding: 0px;
+
+}
+
+.header-nav-menu-item {
+    margin-right: 20px;
+}
+
+.header-search{
+    margin-left: auto;
+    background-color: #fff;
+    border: #fff;
+}
+
+.header-contact {
+    margin-left: 24px;
+    font-weight: 700;
+}
